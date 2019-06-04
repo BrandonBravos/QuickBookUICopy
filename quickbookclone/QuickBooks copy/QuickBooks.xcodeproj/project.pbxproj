@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1BA1CC222A0E8E9002AB8C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA1CC122A0E8E9002AB8C9 /* AppDelegate.swift */; };
+		A1BA1CC422A0E8E9002AB8C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA1CC322A0E8E9002AB8C9 /* ViewController.swift */; };
+		A1BA1CC922A0E8EA002AB8C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1BA1CC822A0E8EA002AB8C9 /* Assets.xcassets */; };
+		A1BA1CCC22A0E8EA002AB8C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BA1CCA22A0E8EA002AB8C9 /* LaunchScreen.storyboard */; };
+		A1BA1CD722A0E8EB002AB8C9 /* QuickBooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA1CD622A0E8EB002AB8C9 /* QuickBooksTests.swift */; };
+		A1BA1CE222A0E8EB002AB8C9 /* QuickBooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA1CE122A0E8EB002AB8C9 /* QuickBooksUITests.swift */; };
+		A1BA1CF122A10218002AB8C9 /* ProfitLossView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA1CF022A10218002AB8C9 /* ProfitLossView.swift */; };
+		A1BA1CF322A103D2002AB8C9 /* HeaderBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA1CF222A103D2002AB8C9 /* HeaderBarView.swift */; };
+		A1BA1CF822A107D7002AB8C9 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA1CF622A107D7002AB8C9 /* Globals.swift */; };
+		A1BA1CFC22A575D2002AB8C9 /* BarTypeOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA1CFB22A575D2002AB8C9 /* BarTypeOne.swift */; };
+		A1BA1D0322A5A176002AB8C9 /* InvoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA1D0222A5A176002AB8C9 /* InvoiceView.swift */; };
+		A1BA1D0522A5A2F0002AB8C9 /* BarTypeTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA1D0422A5A2F0002AB8C9 /* BarTypeTwo.swift */; };
+		A1BA1D0722A5CCA8002AB8C9 /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA1D0622A5CCA8002AB8C9 /* ExpensesView.swift */; };
+		A1BA1D0C22A651EA002AB8C9 /* GraphsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA1D0B22A651EA002AB8C9 /* GraphsCell.swift */; };
+		A1BA1D0E22A65CFA002AB8C9 /* BlankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA1D0D22A65CFA002AB8C9 /* BlankCell.swift */; };
+		A1BA1D1022A660CA002AB8C9 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA1D0F22A660CA002AB8C9 /* MenuView.swift */; };
+		A1BA1D1222A6653E002AB8C9 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BA1D1122A6653E002AB8C9 /* MenuCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1BA1CD322A0E8EB002AB8C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1BA1CB622A0E8E9002AB8C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1BA1CBD22A0E8E9002AB8C9;
+			remoteInfo = QuickBooks;
+		};
+		A1BA1CDE22A0E8EB002AB8C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1BA1CB622A0E8E9002AB8C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1BA1CBD22A0E8E9002AB8C9;
+			remoteInfo = QuickBooks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1BA1CBE22A0E8E9002AB8C9 /* QuickBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BA1CC122A0E8E9002AB8C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1BA1CC322A0E8E9002AB8C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1BA1CC822A0E8EA002AB8C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1BA1CCB22A0E8EA002AB8C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1BA1CCD22A0E8EA002AB8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BA1CD222A0E8EB002AB8C9 /* QuickBooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickBooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BA1CD622A0E8EB002AB8C9 /* QuickBooksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickBooksTests.swift; sourceTree = "<group>"; };
+		A1BA1CD822A0E8EB002AB8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BA1CDD22A0E8EB002AB8C9 /* QuickBooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickBooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BA1CE122A0E8EB002AB8C9 /* QuickBooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickBooksUITests.swift; sourceTree = "<group>"; };
+		A1BA1CE322A0E8EB002AB8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BA1CF022A10218002AB8C9 /* ProfitLossView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitLossView.swift; sourceTree = "<group>"; };
+		A1BA1CF222A103D2002AB8C9 /* HeaderBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBarView.swift; sourceTree = "<group>"; };
+		A1BA1CF622A107D7002AB8C9 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		A1BA1CFB22A575D2002AB8C9 /* BarTypeOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarTypeOne.swift; sourceTree = "<group>"; };
+		A1BA1D0222A5A176002AB8C9 /* InvoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceView.swift; sourceTree = "<group>"; };
+		A1BA1D0422A5A2F0002AB8C9 /* BarTypeTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarTypeTwo.swift; sourceTree = "<group>"; };
+		A1BA1D0622A5CCA8002AB8C9 /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
+		A1BA1D0B22A651EA002AB8C9 /* GraphsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphsCell.swift; sourceTree = "<group>"; };
+		A1BA1D0D22A65CFA002AB8C9 /* BlankCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankCell.swift; sourceTree = "<group>"; };
+		A1BA1D0F22A660CA002AB8C9 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		A1BA1D1122A6653E002AB8C9 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1BA1CBB22A0E8E9002AB8C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BA1CCF22A0E8EB002AB8C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BA1CDA22A0E8EB002AB8C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1BA1CB522A0E8E9002AB8C9 = {
+			isa = PBXGroup;
+			children = (
+				A1BA1CC022A0E8E9002AB8C9 /* QuickBooks */,
+				A1BA1CD522A0E8EB002AB8C9 /* QuickBooksTests */,
+				A1BA1CE022A0E8EB002AB8C9 /* QuickBooksUITests */,
+				A1BA1CBF22A0E8E9002AB8C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1BA1CBF22A0E8E9002AB8C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1BA1CBE22A0E8E9002AB8C9 /* QuickBooks.app */,
+				A1BA1CD222A0E8EB002AB8C9 /* QuickBooksTests.xctest */,
+				A1BA1CDD22A0E8EB002AB8C9 /* QuickBooksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1BA1CC022A0E8E9002AB8C9 /* QuickBooks */ = {
+			isa = PBXGroup;
+			children = (
+				A1BA1CC122A0E8E9002AB8C9 /* AppDelegate.swift */,
+				A1BA1CC322A0E8E9002AB8C9 /* ViewController.swift */,
+				A1BA1CEF22A101E8002AB8C9 /* CustomViews */,
+				A1BA1D0A22A651B9002AB8C9 /* Cells */,
+				A1BA1CFA22A107E7002AB8C9 /* Extensions */,
+				A1BA1CC822A0E8EA002AB8C9 /* Assets.xcassets */,
+				A1BA1CCA22A0E8EA002AB8C9 /* LaunchScreen.storyboard */,
+				A1BA1CCD22A0E8EA002AB8C9 /* Info.plist */,
+			);
+			path = QuickBooks;
+			sourceTree = "<group>";
+		};
+		A1BA1CD522A0E8EB002AB8C9 /* QuickBooksTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1BA1CD622A0E8EB002AB8C9 /* QuickBooksTests.swift */,
+				A1BA1CD822A0E8EB002AB8C9 /* Info.plist */,
+			);
+			path = QuickBooksTests;
+			sourceTree = "<group>";
+		};
+		A1BA1CE022A0E8EB002AB8C9 /* QuickBooksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1BA1CE122A0E8EB002AB8C9 /* QuickBooksUITests.swift */,
+				A1BA1CE322A0E8EB002AB8C9 /* Info.plist */,
+			);
+			path = QuickBooksUITests;
+			sourceTree = "<group>";
+		};
+		A1BA1CEF22A101E8002AB8C9 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				A1BA1CF222A103D2002AB8C9 /* HeaderBarView.swift */,
+				A1BA1CF022A10218002AB8C9 /* ProfitLossView.swift */,
+				A1BA1D0222A5A176002AB8C9 /* InvoiceView.swift */,
+				A1BA1D0622A5CCA8002AB8C9 /* ExpensesView.swift */,
+				A1BA1CFB22A575D2002AB8C9 /* BarTypeOne.swift */,
+				A1BA1D0422A5A2F0002AB8C9 /* BarTypeTwo.swift */,
+				A1BA1D0F22A660CA002AB8C9 /* MenuView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		A1BA1CFA22A107E7002AB8C9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A1BA1CF622A107D7002AB8C9 /* Globals.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A1BA1D0A22A651B9002AB8C9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A1BA1D0B22A651EA002AB8C9 /* GraphsCell.swift */,
+				A1BA1D0D22A65CFA002AB8C9 /* BlankCell.swift */,
+				A1BA1D1122A6653E002AB8C9 /* MenuCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1BA1CBD22A0E8E9002AB8C9 /* QuickBooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1BA1CE622A0E8EB002AB8C9 /* Build configuration list for PBXNativeTarget "QuickBooks" */;
+			buildPhases = (
+				A1BA1CBA22A0E8E9002AB8C9 /* Sources */,
+				A1BA1CBB22A0E8E9002AB8C9 /* Frameworks */,
+				A1BA1CBC22A0E8E9002AB8C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickBooks;
+			productName = QuickBooks;
+			productReference = A1BA1CBE22A0E8E9002AB8C9 /* QuickBooks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1BA1CD122A0E8EB002AB8C9 /* QuickBooksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1BA1CE922A0E8EB002AB8C9 /* Build configuration list for PBXNativeTarget "QuickBooksTests" */;
+			buildPhases = (
+				A1BA1CCE22A0E8EB002AB8C9 /* Sources */,
+				A1BA1CCF22A0E8EB002AB8C9 /* Frameworks */,
+				A1BA1CD022A0E8EB002AB8C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1BA1CD422A0E8EB002AB8C9 /* PBXTargetDependency */,
+			);
+			name = QuickBooksTests;
+			productName = QuickBooksTests;
+			productReference = A1BA1CD222A0E8EB002AB8C9 /* QuickBooksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1BA1CDC22A0E8EB002AB8C9 /* QuickBooksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1BA1CEC22A0E8EB002AB8C9 /* Build configuration list for PBXNativeTarget "QuickBooksUITests" */;
+			buildPhases = (
+				A1BA1CD922A0E8EB002AB8C9 /* Sources */,
+				A1BA1CDA22A0E8EB002AB8C9 /* Frameworks */,
+				A1BA1CDB22A0E8EB002AB8C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1BA1CDF22A0E8EB002AB8C9 /* PBXTargetDependency */,
+			);
+			name = QuickBooksUITests;
+			productName = QuickBooksUITests;
+			productReference = A1BA1CDD22A0E8EB002AB8C9 /* QuickBooksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1BA1CB622A0E8E9002AB8C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Brandon Bravos";
+				TargetAttributes = {
+					A1BA1CBD22A0E8E9002AB8C9 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A1BA1CD122A0E8EB002AB8C9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A1BA1CBD22A0E8E9002AB8C9;
+					};
+					A1BA1CDC22A0E8EB002AB8C9 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A1BA1CBD22A0E8E9002AB8C9;
+					};
+				};
+			};
+			buildConfigurationList = A1BA1CB922A0E8E9002AB8C9 /* Build configuration list for PBXProject "QuickBooks" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1BA1CB522A0E8E9002AB8C9;
+			productRefGroup = A1BA1CBF22A0E8E9002AB8C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1BA1CBD22A0E8E9002AB8C9 /* QuickBooks */,
+				A1BA1CD122A0E8EB002AB8C9 /* QuickBooksTests */,
+				A1BA1CDC22A0E8EB002AB8C9 /* QuickBooksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1BA1CBC22A0E8E9002AB8C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BA1CCC22A0E8EA002AB8C9 /* LaunchScreen.storyboard in Resources */,
+				A1BA1CC922A0E8EA002AB8C9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BA1CD022A0E8EB002AB8C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BA1CDB22A0E8EB002AB8C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1BA1CBA22A0E8E9002AB8C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BA1CC422A0E8E9002AB8C9 /* ViewController.swift in Sources */,
+				A1BA1D1022A660CA002AB8C9 /* MenuView.swift in Sources */,
+				A1BA1D0322A5A176002AB8C9 /* InvoiceView.swift in Sources */,
+				A1BA1CC222A0E8E9002AB8C9 /* AppDelegate.swift in Sources */,
+				A1BA1CFC22A575D2002AB8C9 /* BarTypeOne.swift in Sources */,
+				A1BA1D0522A5A2F0002AB8C9 /* BarTypeTwo.swift in Sources */,
+				A1BA1CF122A10218002AB8C9 /* ProfitLossView.swift in Sources */,
+				A1BA1D0E22A65CFA002AB8C9 /* BlankCell.swift in Sources */,
+				A1BA1CF822A107D7002AB8C9 /* Globals.swift in Sources */,
+				A1BA1D0722A5CCA8002AB8C9 /* ExpensesView.swift in Sources */,
+				A1BA1D0C22A651EA002AB8C9 /* GraphsCell.swift in Sources */,
+				A1BA1D1222A6653E002AB8C9 /* MenuCell.swift in Sources */,
+				A1BA1CF322A103D2002AB8C9 /* HeaderBarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BA1CCE22A0E8EB002AB8C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BA1CD722A0E8EB002AB8C9 /* QuickBooksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1BA1CD922A0E8EB002AB8C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BA1CE222A0E8EB002AB8C9 /* QuickBooksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1BA1CD422A0E8EB002AB8C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1BA1CBD22A0E8E9002AB8C9 /* QuickBooks */;
+			targetProxy = A1BA1CD322A0E8EB002AB8C9 /* PBXContainerItemProxy */;
+		};
+		A1BA1CDF22A0E8EB002AB8C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1BA1CBD22A0E8E9002AB8C9 /* QuickBooks */;
+			targetProxy = A1BA1CDE22A0E8EB002AB8C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1BA1CCA22A0E8EA002AB8C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1BA1CCB22A0E8EA002AB8C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1BA1CE422A0E8EB002AB8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1BA1CE522A0E8EB002AB8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1BA1CE722A0E8EB002AB8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UG58S4Y2MQ;
+				INFOPLIST_FILE = QuickBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BravoDev.QuickBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1BA1CE822A0E8EB002AB8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UG58S4Y2MQ;
+				INFOPLIST_FILE = QuickBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BravoDev.QuickBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1BA1CEA22A0E8EB002AB8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UG58S4Y2MQ;
+				INFOPLIST_FILE = QuickBooksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BravoDev.QuickBooksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickBooks.app/QuickBooks";
+			};
+			name = Debug;
+		};
+		A1BA1CEB22A0E8EB002AB8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UG58S4Y2MQ;
+				INFOPLIST_FILE = QuickBooksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BravoDev.QuickBooksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickBooks.app/QuickBooks";
+			};
+			name = Release;
+		};
+		A1BA1CED22A0E8EB002AB8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UG58S4Y2MQ;
+				INFOPLIST_FILE = QuickBooksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BravoDev.QuickBooksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuickBooks;
+			};
+			name = Debug;
+		};
+		A1BA1CEE22A0E8EB002AB8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UG58S4Y2MQ;
+				INFOPLIST_FILE = QuickBooksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BravoDev.QuickBooksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuickBooks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1BA1CB922A0E8E9002AB8C9 /* Build configuration list for PBXProject "QuickBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BA1CE422A0E8EB002AB8C9 /* Debug */,
+				A1BA1CE522A0E8EB002AB8C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1BA1CE622A0E8EB002AB8C9 /* Build configuration list for PBXNativeTarget "QuickBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BA1CE722A0E8EB002AB8C9 /* Debug */,
+				A1BA1CE822A0E8EB002AB8C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1BA1CE922A0E8EB002AB8C9 /* Build configuration list for PBXNativeTarget "QuickBooksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BA1CEA22A0E8EB002AB8C9 /* Debug */,
+				A1BA1CEB22A0E8EB002AB8C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1BA1CEC22A0E8EB002AB8C9 /* Build configuration list for PBXNativeTarget "QuickBooksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BA1CED22A0E8EB002AB8C9 /* Debug */,
+				A1BA1CEE22A0E8EB002AB8C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1BA1CB622A0E8E9002AB8C9 /* Project object */;
+}
